@@ -11,3 +11,19 @@ void rotate_2D_matrix_90degree_clockwise(vector<vector<int>> &a, int n){
   }
 }
 
+// Digit count of a number
+int digit_count(int n){
+  return (floor(log10(n)+1));
+}
+
+// Left most set bit
+int left_most_set_bit(int n){
+  int x=log2(n);
+  return x;
+}
+
+// Count of set bit
+int count_of_set_bit(int n){
+  return (bitset<32>(n).count());
+}
+
